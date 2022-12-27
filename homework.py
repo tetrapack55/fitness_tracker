@@ -1,4 +1,5 @@
 from dataclasses import asdict, dataclass
+from typing import List
 
 
 @dataclass
@@ -152,7 +153,7 @@ WORKOUT: dict[str, type[Training]] = {
 }
 
 
-def read_package(workout_type: str, data: list[int]) -> Training:
+def read_package(workout_type: str, data: List[int]) -> Training:
     """Прочитать данные полученные от датчиков."""
     if workout_type not in WORKOUT:
         raise ValueError('Из пакета данных получен неизвестный тип тренировки')
