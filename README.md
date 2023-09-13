@@ -46,5 +46,7 @@ python homework.py
 
 ## Автор проекта
 Олег Кирьянов
+
 [github](https://github.com/tetrapack55)
+
 [e-mail](xagatgx@yandex.ru)
